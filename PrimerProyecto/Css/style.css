@@ -1,0 +1,553 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ .wrapper{
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1em;
+}
+
+.logo{
+    width: 8.75em;
+ }
+
+.nav-links ul{
+    display: flex;
+}
+.nav-links ul li{
+    list-style: none;
+    padding: 0.25em 1.875em;
+}
+.nav-links a{
+    color: #4b4b4b;
+    text-decoration: none;
+    font-size: 1.10em;
+}
+.nav-links a:hover{
+    color: black;
+}
+
+.rigth-header{
+    display: flex;
+}
+
+.rigth-header p{
+    color: #4b4b4b;
+    font-size: 1.10em;
+    margin-right: 1em;
+    margin-top: 0.25em;
+}
+
+.header-social-links .fa{
+    color: red;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.header-social-links{
+    font-size: 1.5em;
+}
+
+/* Footer  */
+
+footer{
+    background-color: white ;
+    margin: 0;
+}
+
+.top-footer{
+    background-color: rgb(46, 45, 45);
+    border-bottom: .1em solid white;
+    width: auto;
+    height: 17em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 13.5em;
+}
+
+.top-footer h1{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.item-footer p{
+    font-size: .77em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+.top-footer .fa{ 
+    color: white;
+    text-decoration: none;
+    margin-right: 1em;
+}
+.social-icons{
+    font-size: 1.7em;
+}
+
+.footer-nav-one{
+    padding-right: 5em;
+}
+.footer-nav-one p{
+    margin-bottom: 1em;
+}
+.footer-nav-one li{
+    list-style: none;
+    font-size: .8em;
+    margin-bottom: 1em;
+}
+.footer-nav-two{
+    padding-right: 5em;
+}
+
+.footer-nav-two p{
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+.footer-nav-two li{
+    list-style: none;
+    font-size: .8em;
+    margin-bottom: .6em;
+}
+
+.bottom-footer{
+    background-color:  rgb(46, 45, 45);
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.bottom-footer p{
+    padding:4em;
+    color: white;
+    font-size: .9em;
+}
+
+/* Main Page Content*/
+
+.main-finder{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 8em;
+    height: 31em;
+    width: auto;
+    background-image: url(../Imagenes/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+}
+
+.main-finder h1{
+    color: white;
+    font-size: 3.5em;
+    margin-bottom: .3em;
+}
+.main-finder form  [type=text]{
+    height: 2em;
+    width: 20em;
+    opacity: 0.70;
+    font-size: 2em;
+    padding-left: 1em;
+
+}
+
+.main-finder .fa{
+    color: #000000;
+    font-size: 2em;
+    margin-left: -1.1em;
+    margin-top: 0.35em;
+    position: absolute;
+}
+
+/* Main Page Recipes */
+
+.main-recipes h1{
+    text-align: center;
+    color: red;
+    margin: 1em 2.3em;
+}
+
+.latest-recipes{
+ display: flex;
+ justify-content: center;
+}
+
+
+
+/* Recipes  */
+
+.recipes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15em;
+    width: 15em;
+    background-color: white;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 4%; 
+    border-radius: 1em;
+    border: 0.05em solid #a8a7a7;
+}
+
+.recipes img{
+    width: 100%;
+    height: 70%;
+    margin-top: 0em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.recipes h2{
+    color: black;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 1em;
+    font-weight: bold;
+}
+.recipes h3{
+    color: black;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.recipes button{
+    margin-top: 1em;
+    background-color: red;
+    color: white;
+    width: 11em;
+    height: 2em;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+/* Login  */
+
+.main-login{
+    background-color: rgb(241, 239, 239);
+    min-height: 55em;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+
+}
+
+.login{
+    width: 28.5em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login header{
+    display: flex;
+    flex-direction: column;
+}
+
+.login header h1{
+    margin-top: 2em;
+
+}
+.login header h2{
+    margin-top: 2em;
+    font-size: .95em;
+    color: rgb(78, 78, 78);
+}
+.login header a{
+    color: black;
+}
+
+.login-form{
+    background-color: white;
+    border: 0.05em solid #6d6d6d;    
+    height: auto;
+    padding: 1.5em 2em;
+    margin-top: 3em;
+}
+
+.main-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input{
+    height: 3.5em;
+    padding-left: 1em;
+    border: 0.1em solid black;
+    margin: 1em 0em;
+}
+
+.login-label{
+    color: black;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+.secondary-form{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0em;
+      
+}
+.secondary-form a{
+    color: #a8a7a7;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.check-sign{
+    display: flex;
+
+}
+.check-sign label{
+    color: #a8a7a7;
+    padding-left: 0.5em;
+    font-size: 0.8em;
+}
+
+input[type="checkbox"]{
+    width: 1.25em;
+    height: 1.25em;
+}
+
+ .login-button{
+     display:flex;
+     justify-content: center;
+ }
+ .login-button input{
+     width: 100%;
+     height: 3.5em;
+     background-color: black;
+     color: white;
+     border: none;
+     margin-top: 1em;
+     cursor: pointer;
+ }
+
+
+
+
+
+/* Recipe Text */
+
+.main-text{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;   
+}
+
+.recipes-text{
+    width: 38em;
+    height: auto;
+    border: .05em solid #a8a7a7;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.recipes-text img{
+    width: 100%;
+}
+
+.fields{
+    padding: 2em 2em;
+}
+.yield{
+    padding: 2em 0em;
+    border-bottom:  .3em solid #c0bfbf;
+    border-spacing: 2em;
+}
+.ingredients{
+    border-bottom:  .3em solid #c0bfbf;
+    border-spacing: 2em;
+}
+
+
+.ingredients li{
+    color: #474747;
+    margin-bottom: 1.2em;
+    margin-left: .8em;
+}
+
+.preparation p{
+    margin-bottom: 2em;
+    color: #474747;
+}
+
+.text-h{
+    margin: .8em 0em;
+    color: #414040;
+}
+
+
+/* All Recipes */
+
+.main-all-recipes h1{
+    text-align: center;
+    color: red;
+    margin: 1em 2.3em;
+    font-size: 2.5em;
+}
+.all-recipes-first{
+    display: flex;
+    justify-content: center;
+}
+
+#div1{
+    display: flex;
+}
+
+
+
+
+
+/* Modo movil / tablet  */
+
+@media screen and (max-width: 850px) {
+    /* Header */
+    .logo{
+        width: 5em;
+        height: 3em;
+     }
+
+    .nav-links a{
+        font-size: .9em;
+    }
+
+    .nav-links ul li{
+        list-style: none;
+        padding: 0.25em .5em;
+    }
+
+    .rigth-header p{
+        display: none;
+    }
+
+    .header-social-links{
+        font-size: 1.2em;
+    }
+
+    .header-social-links .fa{
+        margin-right: 0.5em;
+    }
+  
+    /* Footer  */
+
+    .footer-nav-one{
+        display: none;
+    }
+
+    .footer-nav-two{
+        display: none;
+    }
+    .top-footer{
+        padding: 2em 4em;
+    }
+
+    .bottom-footer p{
+
+        font-size: .7em;
+    }
+
+    /* Index */
+
+    .main-finder{
+        height: 20em;
+    }
+    
+    .main-finder h1{
+        color: white;
+        font-size: 2.9em;
+        margin-bottom: .3em;
+    }
+    .main-finder form  [type=text]{
+        height: 2em;
+        width: 13em;
+        opacity: 0.70;
+        font-size: 2em;
+        padding-left: 1em;
+    
+    }
+    
+    
+    /* Main Page Recipes */
+    
+    .main-recipes h1{
+        text-align: center;
+        color: red;
+        margin: 1em 2.3em;
+    }
+    
+    .latest-recipes{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* Recipes  */
+
+    .recipes{
+        height: 12em;
+        width: 12em;
+    }
+
+
+    .recipes h2{
+        margin-top: 4%;
+        font-size: .8em;
+    }
+
+    .recipes button{
+        margin-top: .5em;
+        width: 8em;
+        height: 2em;
+    }
+
+    /* all recipes */
+
+    .all-recipes-first{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* recipetext */
+
+    .recipes-text{
+        width: auto;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 415px){
+    .header-social-links{
+        display:none;
+    }
+    .social-icons{
+        font-size: 1.4em;
+    }
+    .main-finder form  [type=text]{
+
+        width: 11.5em;
+
+    }
+}

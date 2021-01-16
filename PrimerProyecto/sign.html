@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./JavaScript/jquery-3.5.1.js"></script>
+  <script src="./JavaScript/myScriptsign.js"></script>
+  <title>SecretRecipe</title>
+</head>
+<body>
+    <div class = "wrapper">
+      <header>
+        <img src="./Imagenes/logo1.png" class="logo">
+        <nav class="nav-links">
+             <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+               <li><a href="sign.html">Sign-Up</a>/<a href="login.html">Log-in</a></li>
+             </ul>
+        </nav>
+        <div class="rigth-header">
+          <p>Follow</p>
+          <nav class="header-social-links">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </nav>
+        </div>
+      </header>
+         
+      <div class="main-login">
+        <div class="login">
+          <header>
+            <div id="div2"> 
+            
+            </div>
+            <h1>Sign up</h1>
+            <h2>Already have an account? <a href="login.html">Enter here</a></h2>
+          </header>
+
+          <div class="login-form">
+              <form  id="registro">
+                <div class="main-form">
+                  <label class="login-label"  >Name</label>
+                  <input type="text" placeholder="Your Name" class="login-input" 
+                  pattern="[a-z]{4,8}" id="formname" required>
+                  <label class="login-label"  >Email</label>
+                  <input type="email" placeholder="Your e-mail address" class="login-input" id="formemail" required>
+                  <label class="login-label"  >Password</label>
+                  <input type="password" placeholder="Your password" id="formpassword" class="login-input" 
+                  title="Enter password in the correct format (e.g. 12345)" pattern="[0-9]{5}" required>
+                  <label class="login-label"  >Enter password again</label>
+                  <input type="password" placeholder="Your password" id="formpassword2" class="login-input"
+                  title="Enter password in the correct format (e.g. 12345)"  pattern="[0-9]{5}" required>
+                </div>
+                <div class="login-button">
+                  <input type="submit" value="Sign up" id="submit2">
+                </div>
+              </form>
+          </div>
+        </div>
+        
+      </div>
+     
+      <div class="site-footer">
+        <footer>
+            <div class="top-footer">
+              <div class="item-footer">
+                <h1>SecretRecipe</h1>
+                <p>Since 1990, SecretRecipe has been the ultimate food resource for the home cook, with daily kitchen tips, fun <br> 
+                  cooking videos, and over 30,000 recipes.</p>
+                <div class="social-icons">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-pinterest"></a>
+                  <a href="#" class="fa fa-youtube"></a>
+                </div>  
+              </div>
+              <nav class="footer-nav-one">
+                <p>More From SecretRecipe</p>
+                <ul>
+                  <li>Newsletters</li>
+                  <li>SecretRecipe Cookware</li>
+                  <li>Help</li>
+                </ul>
+              </nav>
+              <nav class="footer-nav-two">
+                  <p>Connect</p>
+                  <ul>
+                    <li>Subscription Services</li>
+                    <li>Press Center</li>
+                    <li>Contact Us</li>
+                  </ul>
+              </nav>
+            </div>
+            <div class="bottom-footer">
+                <p>&copy; Copyright 2020 SecretRecipe. All Rights Reserved.Use of this site constitutes acceptance of our User Agreement (updated 1/1/20) and Privacy Policy and Cookie Statement (updated 1/1/20) and Narnia <br>
+                   Privacy Rights. SecretRecipe may earn a portion of sales from products that are purchased through our site as part of our Affiliate Partnerships with retailers.</p>
+            </div>
+
+        </footer>
+      </div>
+  </div>
+   
+</body>
+</html>
